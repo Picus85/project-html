@@ -1,4 +1,4 @@
-@import url(<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet"> );
+@import url(<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">);
 body {
     max-width: 980px;
     margin: auto;
@@ -76,7 +76,7 @@ header nav img.phone {
     float: left;
 }
 
-article nav.rozdil {
+article nav.section {
     width: 100%;
     font-family: 'Istok Web', sans-serif;
     display: grid;
@@ -99,18 +99,17 @@ article h3 {
 
 img.syget {
     width: 100%;
-    float: left;
-    margin: 0px 15px 0px 0px;
+
 }
 
-nav.rozdil p {
+nav.section p {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
     text-align: justify;
 }
 
-nav.rozdil ul {
+nav.section ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -120,19 +119,19 @@ nav.rozdil ul {
     height: auto;
 }
 
-.zrazok_robit {
+.sample_work {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.zrazok {
+.sample {
     display: block;
     border: 1px solid black;
     padding: 5px;
 }
 
-.zrazok img {
+.sample img {
     width: 100%;
 
 }
@@ -224,7 +223,7 @@ h5 {
     nav h2 {
         font-size: 30px;
     }
-    .zrazok_robit {
+    .sample_work {
         grid-template-columns: 1fr 1fr;
     }
     nav ul.menu {
@@ -233,7 +232,7 @@ h5 {
     ul.menu li a {
         font-size: 100%;
     }
-    article nav.rozdil {
+    article nav.section {
         display: grid;
         grid-template-columns: 1fr;
         height: auto;
@@ -284,7 +283,7 @@ h5 {
         h4 {
             font-size: 15px;
         }
-        .zrazok_robit {
+        .sample_work {
             grid-template-columns: 1fr;
         }
     }
