@@ -82,7 +82,6 @@ article nav.section {
     display: grid;
     grid-template-columns: 30% 1fr;
     height: auto;
-
 }
 
 article h3 {
@@ -132,7 +131,6 @@ nav.section ul {
 
 .sample img {
     width: 100%;
-
 }
 
 .flor {
@@ -152,7 +150,6 @@ ul.adress li {
     flex-direction: column;
     margin-bottom: 0;
     padding: 0;
-
 }
 
 ul.adress li:first-child {
@@ -178,8 +175,6 @@ ul.adress li:last-child {
     display: block;
     width: 100%;
     justify-content: center;
-
-
 }
 
 iframe {
