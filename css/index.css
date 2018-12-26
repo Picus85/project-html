@@ -22,7 +22,7 @@ header nav:first-child {
 
 nav ul.menu {
     margin-top: 5px;
-    width: 60%;
+    width: 100%;
     display: flex;
     margin-bottom: 0;
     justify-content: space-around;
