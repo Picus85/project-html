@@ -25,6 +25,7 @@ nav ul.menu {
     width: 100%;
     display: flex;
     margin-bottom: 0;
+    padding: 0;
     justify-content: space-around;
 }
 
@@ -258,7 +259,8 @@ h5 {
             width: auto;
 
         }
-        ul.menu {
+        nav ul.menu {
+            display:none;
             visibility: hidden;
         }
         nav img.syget {
